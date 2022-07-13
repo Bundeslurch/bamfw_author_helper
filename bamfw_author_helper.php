@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name:     Bamfw_author_helper
- * Plugin URI:      https://github.com/Lightweb-Media/bamfw_author_helper
- * Description:     ass acf save action to update post_author form lwm_author field
+ * Plugin URI:      https://github.com/Bundeslurch/bamfw_author_helper
+ * Description:     acf save action to update post_author form lwm_author field
  * Author:          Sebastian Weiss
  * Author URI:      https://lightweb-media.de
  * Text Domain:     bamfw_author_helper
@@ -15,7 +15,8 @@
 // Your code starts here.
 
 add_action( 'acf/save_post', 'set_user_by_author_id', 10, 2 ); 
-define('BAH_PATH', plugin_dir_path(__FILE));
+define('BAH_PATH', plugin_dir_path(__FILE__));
+
 include( plugin_dir_path( __FILE__ ) . 'acf/acf.php');
 
 function set_user_by_author_id($post_id){
