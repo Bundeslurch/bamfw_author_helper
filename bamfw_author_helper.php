@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:     Bamfw_author_helper
+ * Plugin Name:     Bamfw Autoren Box Helper
  * Plugin URI:      https://github.com/Bundeslurch/bamfw_author_helper
  * Description:     acf save action to update post_author form lwm_author field
  * Author:          Sebastian Weiss
